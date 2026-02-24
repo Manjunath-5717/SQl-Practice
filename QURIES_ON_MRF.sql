@@ -1,6 +1,4 @@
--- =====================================================
 -- ASSIGNEMENT ON MRF ( )
--- =====================================================
 
 -- 1. WAQTD NUMBER OF EMPLOYEES GETTING SALARY LESS THAN 2000 IN DEPTNO 10.
 SELECT COUNT(*)
