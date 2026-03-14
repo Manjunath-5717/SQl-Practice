@@ -6,26 +6,47 @@ This repository reflects consistent hands-on practice using the classic **EMP** 
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
-### 🔹 1. Basic Queries
+## 🔹 1. DDL (Data Definition Language)
 
-* **PROJECTION-QURIES.sql** – Selecting specific columns
+DDL commands are used to **define and modify database structures**.
+
+* **DDL_TABLE_CREATION.sql** – Creating EMP and DEPT tables
+* **ALTER_TABLE_QUERIES.sql** – Adding, modifying, and dropping columns
+* **CONSTRAINTS.sql** – Primary Key, Foreign Key, NOT NULL, UNIQUE
+* **DROP_TRUNCATE_QUERIES.sql** – Dropping and truncating tables
+
+---
+
+## 🔹 2. DML (Data Manipulation Language)
+
+DML commands are used to **insert, update, delete, and manage data inside tables**.
+
+* **INSERT_QUERIES.sql** – Inserting records into EMP and DEPT tables
+* **UPDATE_QUERIES.sql** – Updating employee or department data
+* **DELETE_QUERIES.sql** – Deleting records with conditions
+
+---
+
+## 🔹 3. Basic Queries
+
+* **PROJECTION_QUERIES.sql** – Selecting specific columns
 * **WHERE_CLAUSE.sql** – Filtering records using conditions
 * **OPERATORS_SQL.sql** – Comparison & logical operators
 * **LOGICAL_QUERIES.sql** – AND, OR, NOT based problems
 
 ---
 
-### 🔹 2. Expressions & Aggregation
+## 🔹 4. Expressions & Aggregation
 
 * **EXPRESSION_ALIAS.sql** – Expressions & column aliases
-* **QURIES_ON_MRF.sql** – Aggregate function practice
-* **GROUPBY_HAVING_QURIES.sql** – GROUP BY & HAVING clause queries
+* **QUERIES_ON_AGGREGATE.sql** – Aggregate function practice
+* **GROUPBY_HAVING_QUERIES.sql** – GROUP BY & HAVING clause queries
 
 ---
 
-### 🔹 3. Subqueries
+## 🔹 5. Subqueries
 
 * **SUBQUERIES.sql** – Basic subqueries
 * **SUBQUERY_CASE_1.sql** – Case-based subquery problems
@@ -37,7 +58,7 @@ This repository reflects consistent hands-on practice using the classic **EMP** 
 
 ---
 
-### 🔹 4. Joins
+## 🔹 6. Joins
 
 * **INNERQUERIES_AND_MGR_EMP_RE.sql**
 
@@ -47,7 +68,7 @@ This repository reflects consistent hands-on practice using the classic **EMP** 
 
 ---
 
-## 🗄️ Database Used
+# 🗄️ Database Used
 
 * **Oracle SQL**
 * **MySQL**
@@ -55,36 +76,59 @@ This repository reflects consistent hands-on practice using the classic **EMP** 
 
 ---
 
-## 🎯 Concepts Covered
+# 🎯 Concepts Covered
+
+### 📌 DDL Concepts
+
+* CREATE TABLE
+* ALTER TABLE
+* DROP TABLE
+* TRUNCATE TABLE
+* Constraints (Primary Key, Foreign Key, NOT NULL, UNIQUE)
+
+### 📌 DML Concepts
+
+* INSERT
+* UPDATE
+* DELETE
+
+### 📌 Query Concepts
 
 * Projection Queries
 * WHERE Clause
 * Logical & Comparison Operators
 * LIKE, BETWEEN, IN
 * NULL Handling
-* Aggregate Functions
 
-  * COUNT
-  * SUM
-  * AVG
-  * MIN
-  * MAX
+### 📌 Aggregation
+
+* COUNT
+* SUM
+* AVG
+* MIN
+* MAX
+
+### 📌 Grouping
+
 * GROUP BY
 * HAVING
-* Expressions & Aliases
-* Subqueries
 
-  * Single-row
-  * Multi-row
-* ALL, ANY, IN Operators
-* MAX/MIN based subquery problems
+### 📌 Subqueries
+
+* Single-row subqueries
+* Multi-row subqueries
+* ALL, ANY, IN operators
+* MAX/MIN based problems
+
+### 📌 Joins
+
 * INNER JOIN
 * Self Join
-* Employee–Manager Relationship Queries
+* Employee–Manager relationship queries
 
 ---
 
-## 🔜 Upcoming Topics
+# 🔜 Upcoming Topics
 
 * LEFT JOIN
 * RIGHT JOIN
@@ -95,7 +139,7 @@ This repository reflects consistent hands-on practice using the classic **EMP** 
 
 ---
 
-## 🚀 Purpose of This Repository
+# 🚀 Purpose of This Repository
 
 * Strengthen SQL fundamentals
 * Improve logical thinking and analytical skills
@@ -105,7 +149,7 @@ This repository reflects consistent hands-on practice using the classic **EMP** 
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Manjunath**
 GitHub: https://github.com/Manjunath-5717
